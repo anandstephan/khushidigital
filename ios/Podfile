@@ -23,7 +23,8 @@ target 'khushidigital' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
 
   target 'khushidigitalTests' do
     inherit! :complete 

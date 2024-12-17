@@ -13,7 +13,7 @@ const App = () => {
   return (
     <View style={styles.container}>
       {/* <Pressable style={styles.mainbtn} /> */}
-      {showSplash ? (
+      {!showSplash ? (
         <SplashScreen onFinish={() => setShowSplash(false)} />
       ) : (
         <GestureHandlerRootView style={{flex: 1}}>

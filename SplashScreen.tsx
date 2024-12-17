@@ -14,8 +14,8 @@ const SplashScreen = ({onFinish}) => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('./assets/logo.png')} // Update path as per your project
-        style={{width: '90%', height: '10%'}}
+        source={require('./assets/khushi.png')} // Update path as per your project
+        style={{width: '100%', height: '103%'}}
       />
     </View>
   );
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF', // Splash background color
   },
   logo: {
-    marginHorizontal: 20,
+    // marginHorizontal: 20,
     // width: 100, // Adjust width and height as per your logo
     // height: 100,
     // borderWidth: 2,
